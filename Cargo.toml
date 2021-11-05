@@ -1,0 +1,16 @@
+[package]
+name = "wvr-script"
+version = "0.2.0"
+authors = ["gurke.club <contact@gurke.club>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0"
+notify = "4.0"
+rand = "0.8"
+
+rhai = "1.1"
+
+
+wvr-data = {git = "https://github.com/gurkeclub/wvr-data.git", branch="main"}
+wvr-com = {git = "https://github.com/gurkeclub/wvr-com.git", branch="main"}
